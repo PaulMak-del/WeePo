@@ -53,3 +53,13 @@ jobs:
           reporter: dotnet-trx
           coverage-path: '**/coverage.cobertura.xml'
           coverage-reports: cobertura
+
+      - name: Code Coverage Summary Report
+          uses: irongut/CodeCoverageSummary@v1
+          if: always()
+          with:
+            filename: test-results/**/coverage.cobertura.xml
+            badge: true
+            fail_below_min: false
+            format: markdown
+            output: both
