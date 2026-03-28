@@ -55,7 +55,7 @@ jobs:
           coverage-reports: cobertura
 
       - name: Code Coverage Summary Report
-        uses: irongut/CodeCoverageSummary@v1
+        uses: irongut/CodeCoverageSummary@v1.3.0
         if: always()
         with:
           filename: '**/coverage.cobertura.xml'
