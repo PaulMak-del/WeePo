@@ -51,4 +51,5 @@ jobs:
           name: .NET Test Results
           path: '**/*.trx'
           reporter: dotnet-trx
-          
+          coverage-path: '**/coverage.cobertura.xml'
+          coverage-reports: cobertura
