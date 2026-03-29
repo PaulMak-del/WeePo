@@ -14,6 +14,7 @@ jobs:
       checks: write
       pull-requests: write
       contents: read
+      actions: write
 
     steps:
       - name: Checkout code
@@ -54,6 +55,7 @@ jobs:
             -reports:"**/coverage.cobertura.xml" \
             -targetdir:"coveragereport" \
             -reporttypes:Cobertura
+          cat coveragereport/SummaryGithub.md >> $GITHUB_STEP_SUMMARY
 
       - name: Code Coverage Summary Report
         uses: irongut/CodeCoverageSummary@v1.3.0
