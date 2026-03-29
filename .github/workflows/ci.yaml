@@ -54,7 +54,7 @@ jobs:
           reportgenerator \
             -reports:"**/coverage.cobertura.xml" \
             -targetdir:"coveragereport" \
-            -reporttypes:MarkdownSummaryGithub;Cobertura
+            "-reporttypes:MarkdownSummaryGithub;Cobertura"
           cat coveragereport/SummaryGithub.md >> $GITHUB_STEP_SUMMARY
 
       - name: Code Coverage Summary Report
