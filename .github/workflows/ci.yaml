@@ -66,3 +66,11 @@ jobs:
           fail_below_min: false
           format: markdown
           output: both
+          
+      - name: Publish test results
+        uses: dorny/test-reporter@v1
+        if: always()
+        with:
+          name: .NET Test Results
+          path: '**/*.trx'
+          reporter: dotnet-trx
