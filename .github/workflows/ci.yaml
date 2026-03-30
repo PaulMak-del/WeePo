@@ -51,7 +51,7 @@ jobs:
           
       - name: Generate Unified Coverage Report
         run: |
-          reportgenerator \
+          dotnet reportgenerator \
             -reports:"**/coverage.cobertura.xml" \
             -targetdir:"coveragereport" \
             "-reporttypes:MarkdownSummaryGithub;Cobertura"
