@@ -15,4 +15,13 @@ public class SimplePooTest
         
         Assert.Equal(9, result);
     }
+    
+    [Fact]
+    public void SecondSimpleTest()
+    {
+        SimplePoo instance = new();
+        int result = instance.SumOfThree(5, 4, 3);
+        
+        Assert.Equal(12, result);
+    }
 }
