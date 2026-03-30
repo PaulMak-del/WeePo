@@ -10,4 +10,8 @@
         <Content Include=".github\workflows\ci.yaml"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <None Include="dotnet-tools.json" />
+    </ItemGroup>
+
 </Project>
