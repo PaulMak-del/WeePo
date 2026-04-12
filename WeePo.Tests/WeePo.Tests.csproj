@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WeePo\WeePo.csproj" />
+    <ProjectReference Include="..\_10_Presentation\_10_Presentation.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,8 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeePo", "WeePo\WeePo.csproj", "{46EEBEB2-A3D4-4575-B295-B9D3D1794F8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_10_Presentation", "_10_Presentation\_10_Presentation.csproj", "{46EEBEB2-A3D4-4575-B295-B9D3D1794F8D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeePo.Tests", "WeePo.Tests\WeePo.Tests.csproj", "{6E655E8B-3734-4B99-AADA-B7509D81E13B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_20_Business", "_20_Business\_20_Business.csproj", "{C7A50BBC-9420-4696-85B8-9CC682A7BC37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_30_Infrastructure", "_30_Infrastructure\_30_Infrastructure.csproj", "{41C54937-97EE-4E97-A173-65157BC3E1F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +22,13 @@ Global
 		{6E655E8B-3734-4B99-AADA-B7509D81E13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E655E8B-3734-4B99-AADA-B7509D81E13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E655E8B-3734-4B99-AADA-B7509D81E13B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A50BBC-9420-4696-85B8-9CC682A7BC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A50BBC-9420-4696-85B8-9CC682A7BC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A50BBC-9420-4696-85B8-9CC682A7BC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A50BBC-9420-4696-85B8-9CC682A7BC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C54937-97EE-4E97-A173-65157BC3E1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C54937-97EE-4E97-A173-65157BC3E1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C54937-97EE-4E97-A173-65157BC3E1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C54937-97EE-4E97-A173-65157BC3E1F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

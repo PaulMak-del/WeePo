@@ -4,6 +4,7 @@
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>_10_Presentation</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -12,6 +13,11 @@
 
     <ItemGroup>
       <None Include="dotnet-tools.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\_20_Business\_20_Business.csproj" />
+      <ProjectReference Include="..\_30_Infrastructure\_30_Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
